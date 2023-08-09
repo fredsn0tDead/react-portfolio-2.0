@@ -6,11 +6,12 @@ import JS from '../assets/javascript.png'
 import REACT from '../assets/react.png'
 import NODE from '../assets/node.png'
 import MONGO from '../assets/mongo.png'
-//import PYTHON from '../assets/python.png'
-//import FLASK from '../assets/flask.png'
-//import SQL from '../assets/sql.png'
+import PYTHON from '../assets/Python.png'
+import JAVA from '../assets/java.png'
+import SQL from '../assets/sql.png'
 import Firebase from '../assets/firebase.png'
 import Github from '../assets/github.png'
+import  GOOGLE from '../assets/google.png'
 
 export const Skills = () => {
   return (
@@ -22,8 +23,8 @@ export const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid:cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt='css' />
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src={GOOGLE} alt='java' />
+                    <p className='my-4'>Google Cloud Platform</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={HTML} alt='HTML' />
@@ -42,16 +43,16 @@ export const Skills = () => {
                     <p className='my-4'>MONGODB</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={NODE} alt='Node' />
-                    <p className='my-4'>NODE</p>
+                    <img className='w-20 mx-auto' src={PYTHON} alt='python' />
+                    <p className='my-4'>PYTHON</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={JS} alt='Javascript' />
                     <p className='my-4'>JAVASCRIPT</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Github} alt='Github' />
-                    <p className='my-4'>GITHUB</p>
+                    <img className='w-20 mx-auto' src={SQL} alt='Postgres' />
+                    <p className='my-4'>POSTGRES</p>
                 </div>
             </div>
 
