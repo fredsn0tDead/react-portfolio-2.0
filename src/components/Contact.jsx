@@ -6,7 +6,7 @@ export const Contact = () => {
         <form method='POST' action='https://getform.io/f/d3f98528-f640-449d-93d6-d82d31bc7589' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - frederick.tetteh@ontariotechu.net</p>
+                <p className='text-gray-300 py-4'> Submit the form below or shoot me an email - frederick.tetteh@ontariotechu.net</p>
 
             </div>
             <input type='text' placeholder='Name' name='name' />

@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-scroll'
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import { useState,useEffect } from 'react'
 import ReactTyped from "react-typed";
 export const Home = () => {
   return (
