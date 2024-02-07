@@ -22,7 +22,7 @@ export const About = () => {
                     <p> I am passionate about building new and efficent data pipelines that allows for 
                         the easy extraction , transformation, and loading of data. I specialize in creating software for clients ranging
                         from individuals and small-businesses all the way to large enterprise corporations. An amazing developer right 
-                        at your fingertips.
+                        at your fingertips. Along with my ultimate goal of becoming a Data Engineer I have passion for cyber security and cloud computing.
                     </p>
                 
 

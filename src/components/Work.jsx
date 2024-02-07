@@ -1,7 +1,7 @@
 import React from 'react'
 import Project1 from '../assets/box-office4.jpg'
 import Project2 from '../assets/Tic-Tac-Toe.jpg'
-import Project3 from '../assets/spotify4.jpg'
+import Project3 from '../assets/File_conversion.png'
 import Project4 from '../assets/cir.jpg'
 import Project5 from '../assets/skillspotter.jpg'
 import Project6 from '../assets/fitness.jpeg'
@@ -63,14 +63,14 @@ export const Work = () => {
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Spotify Music Tracker
+                        DataFlexConvert    
                         
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://github.com/fredsn0tDead/File-Converter-Completed'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/fredsn0tDead/Spotify-ETL'>
+                            <a href='https://github.com/fredsn0tDead/File-Converter-Completed'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
                             </a>
                         </div>
@@ -87,7 +87,7 @@ export const Work = () => {
                         
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://drive.google.com/drive/u/1/folders/1LUXmhf6lELbv4SWMq9pdDNvtQSw9L-uR'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/fredsn0tDead/Content-Image-Retrieval'>
@@ -127,10 +127,10 @@ export const Work = () => {
                         
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='/'>
+                            <a href='https://github.com/fredsn0tDead/frontend-fitness-app'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/fredsn0tDead/fitness-app'>
+                            <a href='https://github.com/fredsn0tDead/frontend-fitness-app'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
                             </a>
                         </div>

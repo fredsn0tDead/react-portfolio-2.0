@@ -5,7 +5,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useState } from 'react'
 import {Link} from 'react-scroll'
-import CV from '../assets/Resume.pdf'
+import CV from '../assets/Resume_Frederick.Tetteh_LatoUI_Testing_Software.pdf'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleclick = () => setNav(!nav) // toggle nav if nav is true set to false and vice versa
