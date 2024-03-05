@@ -5,6 +5,7 @@ import Project3 from '../assets/File_conversion.png'
 import Project4 from '../assets/cir.jpg'
 import Project5 from '../assets/skillspotter.jpg'
 import Project6 from '../assets/fitness.jpeg'
+import Project7 from '../assets/login.jpg'
 export const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
@@ -38,19 +39,19 @@ export const Work = () => {
                     </div>
 
                 </div>
-                <div style={{backgroundImage: `url(${Project2})`}} 
+                <div style={{backgroundImage: `url(${Project7})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/*Hover Effects*/}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Tic-Tac-Toe
+                            Password Manager
                         
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href='http://phobic-instrument.surge.sh/'>
+                            <a href='https://github.com/fredsn0tDead/Password_Manager'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/fredsn0tDead/Tic-tac-toe'>
+                            <a href='https://github.com/fredsn0tDead/Password_Manager'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
                             </a>
                         </div>
